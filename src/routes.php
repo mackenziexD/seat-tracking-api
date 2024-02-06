@@ -8,7 +8,8 @@ Route::group([
     
     Route::group(['namespace' => 'v2', 'prefix' => 'v2'], function () {
         Route::group(['prefix' => 'tracking'], function () {
-            Route::get('/afk')->uses('TrackingController@afk');
+            Route::get('/afk')->uses('TrackingController@AFK');
+            Route::get('/orphans')->uses('TrackingController@Orphans');
         });
     });
 
