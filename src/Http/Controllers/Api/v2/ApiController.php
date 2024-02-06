@@ -1,6 +1,6 @@
 <?php
 
-namespace Helious\SeatBusaCynos\Http\Controllers\Api\v2;
+namespace Helious\SeatTrackingAPI\Http\Controllers\Api\v2;
 
 
 use Illuminate\Foundation\Validation\ValidatesRequests;

@@ -47,7 +47,7 @@ class TrackingController extends ApiController
      *
      * @return \Illuminate\Http\Response
      */
-    public function orphans(Request $request){
+    public function Orphans(Request $request){
         $corporation = CorporationInfo::where('corporation_id', 2014367342)->get();
         $characters = $corporation->characters;
 
